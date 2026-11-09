@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(116, 243, 116);
+    width: 263px;
+    height: 84px;
+    color: rgb(12, 9, 9);
+    margin: 100px;
+    
+}
+.small{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    /* CSS for small screens */
+    .small{
+        display: inline;
+    }
+    .big{
+            display: none;
+    }
+    .content{
+        background-color: tomato;
+    }
+}

@@ -1,0 +1,14 @@
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    background-color: green;
+    width: clamp(300px, 100%, 800px);
+    height: 300px;
+}
